@@ -1,0 +1,46 @@
+/* Dark Mode Styles */
+body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+header {
+    background-color: #333;
+}
+
+.auth-container, .todos-container {
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+}
+
+.form-group input, .todo-form input {
+    background-color: #3d3d3d;
+    color: #e0e0e0;
+    border-color: #444;
+}
+
+.btn {
+    background-color: #444;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.todo-item {
+    border-bottom-color: #444;
+}
+
+.error-message {
+    background-color: #5c2a2a;
+    color: #ff8a8a;
+}
+
+.success-message {
+    background-color: #2a5c3a;
+    color: #8affa8;
+}
+
+.empty-message {
+    color: #aaa;
+}
