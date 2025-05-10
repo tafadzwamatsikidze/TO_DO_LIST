@@ -1,5 +1,6 @@
 <?php
-require_once 'includes/config.php';
+require_once '../includes/config.php';
+require_once 'functions.php'; 
 
 $error = '';
 
@@ -36,8 +37,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login | Todo App</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/dark-mode.css" id="dark-mode-style" disabled>
+    <link rel="stylesheet" href="/TO_DO_LIST/includes/style.css">
+    <link rel="stylesheet" href="/TO_DO_LIST/includes/dark-mode.css" id="dark-mode-style" disabled>
 </head>
 <body>
     <div class="auth-container">
@@ -64,6 +65,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <p>Don't have an account? <a href="register.php">Register here</a></p>
     </div>
     
-    <script src="assets/js/script.js"></script>
+    <script src="/TO_DO_LIST/includes/script.js"></script>
 </body>
 </html>
