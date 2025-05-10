@@ -36,6 +36,7 @@ document.querySelectorAll('.delete').forEach(button => {
 });
 
 // Simple animation for todo items when added
+
 const todoItems = document.querySelectorAll('.todo-item');
 todoItems.forEach(item => {
     item.style.opacity = '0';
