@@ -27,6 +27,10 @@ header {
     background-color: #555;
 }
 
+.btn-icon{
+    color: aliceblue;
+}
+
 .todo-item {
     border-bottom-color: #444;
 }
