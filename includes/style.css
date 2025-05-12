@@ -42,6 +42,10 @@ header {
     align-items: center;
     box-shadow: var(--shadow);
 }
+header h1 span{
+    color:rgb(97, 29, 152);
+    border-bottom: 5px solid ghostwhite;
+}
 
 .header-actions {
     display: flex;
@@ -61,6 +65,7 @@ header {
 .auth-container h1 {
     margin-bottom: 20px;
     text-align: center;
+    color: var(--secondary-color) ;
 }
 
 .form-group {
@@ -88,7 +93,7 @@ header {
     background-color: var(--primary-color);
     color: var(--light-color);
     border: none;
-    border-radius: 4px;
+    border-radius: 35px;
     cursor: pointer;
     font-size: 16px;
     text-decoration: none;
@@ -120,7 +125,7 @@ header {
     flex: 1;
     padding: 10px;
     border: 1px solid var(--border-color);
-    border-radius: 4px;
+    border-radius: 35px;
     font-size: 16px;
 }
 
